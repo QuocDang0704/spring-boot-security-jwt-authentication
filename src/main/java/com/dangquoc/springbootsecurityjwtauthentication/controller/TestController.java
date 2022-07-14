@@ -32,4 +32,10 @@ public class TestController {
     public String adminAccess() {
         return "Admin Board.";
     }
+
+    @GetMapping("/quoc")
+    @PreAuthorize("hasRole('ROLE_MODERATOR')")
+    public String quoc(){
+        return "quocdz";
+    }
 }
