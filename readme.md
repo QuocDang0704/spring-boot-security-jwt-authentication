@@ -28,4 +28,3 @@ You can have an overview of our Spring Boot Server with the diagram below:
 
 ![spring-boot-refresh-token-jwt-example-flow](spring-boot-refresh-token-jwt-example-flow.png)
 
-For instruction: [Spring Boot Refresh Token with JWT example](https://bezkoder.com/spring-boot-refresh-token-jwt/)
